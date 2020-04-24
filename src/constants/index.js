@@ -1,0 +1,33 @@
+export const FETCH_DATA_REQUEST = 'FETCH_DATA_REQUEST'
+export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS'
+export const FETCH_DATA_FAILURE = 'FETCH_DATA_FAILURE'
+export const CHANGE_DATA = 'CHANGE_DATA'
+export const PAGINATE_CURRENT_PAGE = 'PAGINATE_CURRENT_PAGE'
+export const STORE_PUBLISHER_ID = 'STORE_PUBLISHER_ID'
+export const STORE_ROUTING_LIST = 'STORE_ROUTING_LIST'
+export const STORE_ROUTING_ID = 'STORE_ROUTING_ID'
+export const EMPTY_DATA_STORE = 'EMPTY_DATA_STORE'
+export const STORE_URL = 'STORE_URL'
+export const RESET_CENTRAL_STORE = 'RESET_CENTRAL_STORE'
+export const STORE_XML_FILE_NAME = 'STORE_XML_FILE_NAME'
+export const DELETE_ROUTING_LIST_ITEM = 'DELETE_ROUTING_LIST_ITEM'
+export const STORE_DOMAIN_DATA = 'STORE_DOMAIN_DATA'
+export const EDIT_ROUTING_LIST = 'EDIT_ROUTING_LIST'
+export const CLEAR_ROUTINGID_PUBLISHERID = 'CLEAR_ROUTINGID_PUBLISHERID'
+export const CLEAR_XML_FILE_NAME = 'CLEAR_XML_FILE_NAME'
+
+export const DefaultDomain = 'Domain'
+export const DefaultRouting = 'Routing'
+export const DefaultFeed = 'Feed'
+export const DefaultPublisher = 'Publisher'
+
+export const Get_Selected_Publisher = `/api/Home/publisher-routing-parameterlist`
+export const DefaultDomainUrl = '/api/Home/domains'
+export const DefaultFeedUrl = '/api/Home/feedlist'
+export const DefaultRoutingUrl = '/api/Home/routing-param-list'
+export const DefaultPublisherUrl = '/api/Home/publisherlist'
+
+export const STORE_POPUP_DATA = 'STORE_POPUP_DATA'
+export const CLEAR_POPUP_DATA = 'CLEAR_POPUP_DATA'
+export const TOGGLE_LOADING = 'TOGGLE_LOADING'
+

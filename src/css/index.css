@@ -1,0 +1,19 @@
+.clearfix li {
+    float: left;
+    padding-right: 30px;
+    list-style-type: none;
+}
+/* .clearfix button{
+
+} */
+/* .clearfix ul {
+    color:'red';
+} */
+
+.justify-content-around{
+    justify-content: space-around;
+}
+.dtable tr{
+    padding: 0px;
+    margin: 0px;
+}
